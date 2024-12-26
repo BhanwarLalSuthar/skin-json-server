@@ -1,7 +1,331 @@
 {
-  "brands":{
-    "id":"1",
-    "name":"Gucci",
-    "image":"https://images.unsplash.com/photo-1540189549336-e6e9ca38b953?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
-  }
+  "brands":[
+    {
+      "id":1,
+      "name":"OBAGI MEDICAL",
+      "image":"https://static.thcdn.com/images/small/webp/widgets/121-us/41/original-SkinStore_Widgets_-_Untitled_Page_-_2024-09-11T111837.374-151841.png"
+    },
+    {
+      "id": 2,
+      "name":"SKINMADICA",
+      "image":"https://static.thcdn.com/images/small/webp/widgets/121-us/21/original-SkinStore_Widgets_-_Untitled_Page_-_2024-09-11T111510.186-151521.png"
+    },
+    {
+      "id":3,
+      "name": "DR DENNIS GROSS",
+      "image":"https://static.thcdn.com/images/small/webp/widgets/121-us/48/original-original-original-SkinStore_Widgets_-_Untitled_Page_-_2024-08-14T153805.699-193808-190343-152048.png"
+    },
+    {
+      "id":4,
+      "name": "IS CLINICAL",
+      "image": "https://static.thcdn.com/images/small/webp/widgets/121-us/34/original-SkinStore_Widgets_-_Untitled_Page_-_2024-09-11T111729.236-151734.png"
+    },
+    {
+      "id":5,
+      "name":"SUNDAY RILEY" ,
+      "image":"https://static.thcdn.com/images/small/webp/widgets/121-us/07/original-SkinStore_Widgets_-_Untitled_Page_-_2024-10-30T131700.824-171707.png"
+    },
+    {
+      "id": 6,
+      "name": "NEOCUTIS",
+      "image": "https://static.thcdn.com/images/small/webp/widgets/121-us/44/original-original-SkinStore_Widgets_-_Untitled_Page_-_2024-09-11T112009.304-152040-152044.png"
+    }
+  
+  ],
+  "trendingProducts":[
+    {
+      "id":1,
+      "name": "SKINCEUTICALS",
+      "image":"https://static.thcdn.com/images/small/webp/widgets/121-us/14/original-SkinStore_Widgets_-_Untitled_Page_-_2024-10-16T155608.916-195614.png"
+    },
+    {
+      "id":2,
+      "name": "SKINMADICA",
+      "image":"https://static.thcdn.com/images/small/webp/widgets/121-us/58/original-SkinStore_Widgets_-_Untitled_Page_-_2024-11-06T101940.576-152058.png"
+    },
+    {
+      "id":3,
+      "name": "HOLIDAY SHOP",
+      "image":"https://static.thcdn.com/images/small/webp/widgets/121-us/49/original-SkinStore_Widgets_-_Untitled_Page_-_2024-10-16T144842.304-184849.png"
+    },
+    {
+      "id":4,
+      "name": "BESTSELLERS",
+      "image":"https://static.thcdn.com/images/small/webp/widgets/121-us/54/original-SkinStore_Widgets_-_Untitled_Page_-_2024-10-15T164645.746-204654.png"
+    },
+    {
+      "id":5,
+      "name": "BEST OF DERMSTORE KITS",
+      "image":"https://static.thcdn.com/images/small/webp/widgets/121-us/40/original-SkinStore_Widgets_-_Untitled_Page_-_2024-10-07T152826.777-192840.png"
+    },
+    {
+      "id":6,
+      "name": "BEAUTYFIX",
+      "image":"https://static.thcdn.com/images/small/webp/widgets/121-us/55/original-SkinStore_Widgets_-_Untitled_Page_-_2024-10-15T165021.775-205055.png"
+    }
+  ],
+  "Products": [
+    { 
+      "id":1,
+      "name": "The Ordinary Lactic Acid 5 + HA 2% Superficial Peeling Formulation 30ml",
+      "price": 8.10,
+      "rating": 4.8,
+      "reviews": 4,
+      "discount": "15% off",
+      "code": "SS15",
+      "img1": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11363397-7454901836926420.jpg",
+      "img2": "https://static.thcdn.com/images/small/webp//productimg/130/130/11363397-5014901836942401.jpg"
+    },
+    { 
+      "id":2,
+      "name": "The Ordinary EUK 134 Serum 0.1% 30ml",
+      "price": 11.50,
+      "rating": 3.0,
+      "reviews": 2,
+      "discount": "15% off",
+      "code": "SS15",
+      "img1": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11638499-1495023395939780.jpg",
+      "img2": "https://static.thcdn.com/images/small/webp//productimg/130/130/11363397-5014901836942401.jpg"
+    },
+    {
+      "id":3,
+      "name": "The Ordinary 100% Cold Pressed Virgin Marula Oil 30ml",
+      "price": 11.40,
+      "rating": 5.0,
+      "reviews": 3,
+      "discount": "15% off",
+      "code": "SS15",
+      "img1": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11638499-1495023395939780.jpg",
+      "img2": "https://static.thcdn.com/images/small/webp//productimg/130/130/11363397-5014901836942401.jpg"
+    },
+    {
+      "id":4,
+      "name": "The Ordinary 100% Plant-Derived Squalane 30ml",
+      "price": 10.40,
+      "rating": 4.9,
+      "reviews": 7,
+      "discount": "15% off",
+      "code": "SS15",
+      "img1": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11638499-1495023395939780.jpg",
+      "img2": "https://static.thcdn.com/images/small/webp//productimg/130/130/11363397-5014901836942401.jpg"
+    },
+    { 
+      "id":5,
+      "name": "StriVectin Acne Clearing Treatment Lotion 50ml",
+      "price": 34.30,
+      "value": 49.00,
+      "rating": 4.8,
+      "reviews": 44,
+      "discount": "Save 30%",
+      "code": "SS15",
+      "img1": "https://static.thcdn.com/images/small/webp//productimg/original/14232703-1455038723550439.jpg",
+      "img2": "https://static.thcdn.com/images/small/webp//productimg/130/130/14232703-1915038682647059.jpg"
+    },
+    { 
+      "id":6,
+      "name": "ESPA Balancing Hydrator 70ml",
+      "price": 35.60,
+      "value": 89.00,
+      "rating": 0.0,
+      "reviews": 0,
+      "discount": "Save 60%",
+      "code": "SS15",
+      "img1": "https://static.thcdn.com/images/large/webp/productimg/960/960/11553551-6324539498498831.jpg",
+      "img2": "https://static.thcdn.com/images/large/webp/productimg/960/960/11553551-4024539498462456.jpg"
+    },
+    {
+      "id":7,
+      "name": "Illamasqua Gleam Highlighter",
+      "price": 11.20,
+      "value": 32.00,
+      "rating": 0.0,
+      "reviews": 0,
+      "discount": "Save 65%",
+      "code": "SS15",
+      "img1": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11264657-6894869425120217.jpg",
+      "img2": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11264657-6894869425120217.jpg"
+    },
+    {
+      "id":8,
+      "name": "Grow Gorgeous Curl Duo",
+      "price": 13.60,
+      "value": 32.00,
+      "rating": 0,
+      "reviews": 0,
+      "discount": "Save 60%",
+      "code": "SS15",
+      "img1": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12239778-1194860655004586.jpg",
+      "img2": "https://static.thcdn.com/images/large/webp//productimg/960/960/12239778-1684714157282907.jpg"
+    },
+    { 
+      "id":9,
+      "name": "Illamasqua 3-in-1 Face Palette",
+      "price": 16.80,
+      "value": 48.00,
+      "rating": 0.0,
+      "reviews": 0,
+      "discount": "Save 65%",
+      "code": "SS15",
+      "img1": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12699795-5904902903639366.jpg",
+      "img2": "https://static.thcdn.com/images/large/webp//productimg/960/960/12699795-1174902903695307.jpg"
+    },
+    { 
+      "id":10,
+      "name": "No7 Lift and Luminate Sheet Mask 0.73oz",
+      "price": 2.10,
+      "value": 5.99,
+      "rating": 0.0,
+      "reviews": 0,
+      "discount": "Save 65%",
+      "code": "SS15",
+      "img1": "https://static.thcdn.com/images/small/webp//productimg/original/12004609-1925127105738075.jpg",
+      "img2": "https://static.thcdn.com/images/small/webp//productimg/original/12004609-1925127105738075.jpg"
+    },
+    {
+      "id":11,
+      "name": "Revolution Crystal Aura Lip Oil (Various Shades)",
+      "price": 3.15,
+      "value": 9.00,
+      "rating": 0.0,
+      "reviews": 0,
+      "discount": "Save 65%",
+      "code": "SS15",
+      "img1": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/14272473-2105038676518128.jpg",
+      "img2": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/14272473-2105038676518128.jpg"
+    },
+    {
+      "id":12,
+      "name": "Revolution Hydra Bomb Lip Gloss (Various Shades)",
+      "price": 2.45,
+      "value": 7.00,
+      "rating": 4.6,
+      "reviews": 43,
+      "discount": "Save 65%",
+      "code": "SS15",
+      "img1": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/13132414-1644871025202764.jpg",
+      "img2": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/13132414-1644871025202764.jpg"
+    },
+    { 
+      "id":13,
+      "name": "Merci Handy Hand Sanitizer - Cherie Cherry",
+      "price": 1.00,
+      "value": 4.00,
+      "rating": 0.0,
+      "reviews": 0,
+      "discount": "Save 75%",
+      "code": "SS15",
+      "img1": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12912872-1374849462524213.jpg",
+      "img2": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12912872-1374849462524213.jpg"
+    },
+    { 
+      "id":14,
+      "name": "Makeup Revolution Soap Styler+",
+      "price": 2.80,
+      "value": 8.00,
+      "rating": 0.0,
+      "reviews": 0,
+      "discount": "Save 65%",
+      "code": "SS15",
+      "img1": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/13521348-8184920744651489.jpg",
+      "img2": "https://static.thcdn.com/images/large/webp//productimg/960/960/13521348-2274920746125827.jpg"
+    },
+    {
+      "id":15,
+      "name": "boscia - Cactus Water Moisturizer 15ml. (Worth $77.00)",
+      "price": 17.00,
+      "value": 38.00,
+      "rating": 0.0,
+      "reviews": 0,
+      "discount": "Save 55%",
+      "code": "SS15",
+      "img1": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/13009557-1174875647519559.jpg",
+      "img2": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/13009557-1174875647519559.jpg"
+    },
+    {
+      "id":16,
+      "name": "NUXE Prodigieux Scented Body Lotion 200ml",
+      "price": 8.40,
+      "value": 24.00,
+      "rating": 0.0,
+      "reviews": 0,
+      "discount": "Save 65%",
+      "code": "SS15",
+      "img1": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11262307-4705033039667117.jpg",
+      "img2": "https://static.thcdn.com/images/small/webp//productimg/130/130/11262307-7704869171958218.jpg"
+    },
+    { 
+      "id":17,
+      "name": "Hero Clear Collective Moisturiser 130ml",
+      "price": 9.09,
+      "value": 12.99,
+      "rating": 4.7,
+      "reviews": 414,
+      "discount": "Save 30%",
+      "code": "SS15",
+      "img1": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/13697780-1484941767266875.jpg",
+      "img2": "https://static.thcdn.com/images/large/webp//productimg/960/960/13697780-1834941767315862.png"
+    },
+    { 
+      "id":18,
+      "name": "Grow Gorgeous Scalp Care Scalp Detox Scrub 200ml",
+      "price": 15.00,
+      "value": 30.00,
+      "rating": 0.0,
+      "reviews": 0,
+      "discount": "Save 50%",
+      "code": "SS15",
+      "img1": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12908501-1414951835278662.jpg",
+      "img2": "https://static.thcdn.com/images/large/webp//productimg/960/960/12908501-1954951835321535.jpg"
+    },
+    {
+      "id":19,
+      "name": "NUXE Men Multi-Purpose Eye Cream 15ml",
+      "price": 9.45,
+      "value": 27.00,
+      "rating": 0.0,
+      "reviews": 0,
+      "discount": "Save 65%",
+      "code": "SS15",
+      "img1": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/10859467-6674911465912180.jpg",
+      "img2": "https://static.thcdn.com/images/small/webp//productimg/130/130/10859467-6674911465912180.jpg"
+    },
+    {
+      "id":20,
+      "name": "Makeup Revolution Blowout Mascara with cannabis sativa",
+      "price": 3.50,
+      "value": 10.00,
+      "rating": 4.5,
+      "reviews": 59,
+      "discount": "Save 65%",
+      "code": "SS15",
+      "img1": "https://static.thcdn.com/images/large/webp//productimg/960/960/12656730-1604789896084303.jpg",
+      "img2": "https://static.thcdn.com/images/small/webp//productimg/130/130/12656730-1094789896140061.jpg"
+    },
+    {
+      "id":21,
+      "name": "ESPA The Hydrator 35ml",
+      "price": 28.80,
+      "value": 72.00,
+      "rating": 0.0,
+      "reviews": 0,
+      "discount": "Save 60%",
+      "code": "SS15",
+      "img1": "https://static.thcdn.com/images/large/webp/productimg/1600/1600/11553638-1304539500379159.jpg",
+      "img2": "https://static.thcdn.com/images/large/webp/productimg/960/960/11553638-2114539507268167.jpg"
+    },
+    {
+      "id":22,
+      "name": "Revolution Pro New Neutral Satin Matte Lipstick Thirst",
+      "price": 2.80,
+      "value": 8.00,
+      "rating": 0.0,
+      "reviews": 0,
+      "discount": "Save 65%",
+      "code": "SS15",
+      "img1": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/13253547-1404925503506549.jpg",
+      "img2": "https://static.thcdn.com/images/large/webp//productimg/960/960/13253547-8524925503102170.jpg"
+    }
+
+  ]
+
 }
